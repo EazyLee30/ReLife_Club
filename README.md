@@ -1,10 +1,17 @@
 # 瑞享社 - ReLife Club
 
 ## 演示视频
-- [完整功能演示](docs/images/demo.gif)
-- [AI助手使用演示](docs/images/ai-demo.gif)
-- [课程中心操作演示](docs/images/course-demo.gif)
-- [社区互动演示](docs/images/community-demo.gif)
+### 完整功能演示
+<img src="docs/images/demo.gif" alt="完整功能演示" width="800" />
+
+### AI助手使用演示
+<img src="docs/images/ai-demo.gif" alt="AI助手使用演示" width="800" />
+
+### 课程中心操作演示
+<img src="docs/images/course-demo.gif" alt="课程中心操作演示" width="800" />
+
+### 社区互动演示
+<img src="docs/images/community-demo.gif" alt="社区互动演示" width="800" />
 
 ## 项目简介
 
