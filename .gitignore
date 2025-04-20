@@ -1,18 +1,51 @@
-# Node.js
+# Dependencies
 node_modules/
+venv/
+__pycache__/
+
+# Build files
+dist/
+build/
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Media files
+docs/images/*.mp4
+docs/images/*.gif
+docs/images/*.mov
+docs/images/*.avi
+
+# Large files
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js
 npm-debug.log
 yarn-debug.log
 yarn-error.log
 .pnpm-debug.log
 
 # Python
-__pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
 env/
-build/
 develop-eggs/
 dist/
 downloads/
@@ -27,27 +60,9 @@ var/
 .installed.cfg
 *.egg
 
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
 # Logs
 logs/
 *.log
-
-# Build
-build/
-dist/
-out/
 
 # Cache
 .cache/
@@ -56,7 +71,4 @@ out/
 .pnp/
 .pnp.js
 
-# Misc
-.DS_Store
-Thumbs.db 
 node_modules
