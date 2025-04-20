@@ -18,12 +18,6 @@ build/
 *.swp
 *.swo
 
-# Media files
-docs/images/*.mp4
-docs/images/*.gif
-docs/images/*.mov
-docs/images/*.avi
-
 # Large files
 *.tar.gz
 *.zip
