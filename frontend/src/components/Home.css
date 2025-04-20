@@ -1,0 +1,167 @@
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.trending-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+}
+
+.trending-section {
+  margin-bottom: 16px;
+  padding: 16px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.trending-section h3 {
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #1890ff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.trending-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 8px 0;
+}
+
+.trending-rank {
+  width: 24px;
+  text-align: center;
+  font-weight: bold;
+  color: #ff4d4f;
+}
+
+.trending-title {
+  flex: 1;
+  margin: 0 8px;
+  color: #333;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.trending-title:hover {
+  color: #1890ff;
+}
+
+.trending-hot {
+  margin-left: 8px;
+  min-width: 45px;
+  text-align: center;
+}
+
+.no-data {
+  text-align: center;
+  color: #999;
+  padding: 16px;
+}
+
+.all-trending {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.post-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-input-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-input {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.post-input .ant-avatar {
+  flex-shrink: 0;
+}
+
+.post-input .ant-input {
+  flex: 1;
+}
+
+.post-list {
+  background: transparent;
+}
+
+.post-card {
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  margin-bottom: 12px;
+}
+
+.post-author {
+  font-weight: 500;
+  color: #333;
+}
+
+.post-time {
+  font-size: 12px;
+  color: #999;
+}
+
+.post-content {
+  margin-bottom: 16px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.post-actions {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 12px;
+}
+
+.post-actions .ant-btn {
+  color: #666;
+}
+
+.post-actions .ant-btn:hover {
+  color: #1890ff;
+}
+
+@media (max-width: 768px) {
+  .all-trending {
+    grid-template-columns: 1fr;
+  }
+  
+  .home-container {
+    padding: 12px;
+  }
+  
+  .trending-section {
+    padding: 12px;
+    margin-bottom: 12px;
+  }
+
+  .post-input {
+    flex-direction: column;
+  }
+
+  .post-input .ant-btn {
+    width: 100%;
+  }
+} 

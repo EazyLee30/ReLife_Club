@@ -1,0 +1,66 @@
+.app-header {
+  background: #fff;
+  padding: 0 24px;
+  height: 64px;
+  line-height: 64px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 32px;
+  margin-right: 8px;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1890ff;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.header-actions .ant-btn {
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.header-actions .ant-btn:hover {
+  color: #1890ff;
+}
+
+.header-actions a {
+  color: inherit;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .app-header {
+    padding: 0 16px;
+  }
+
+  .logo-text {
+    display: none;
+  }
+
+  .header-actions {
+    display: none;
+  }
+} 

@@ -1,0 +1,217 @@
+.wallet {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.wallet-header {
+  margin-bottom: 30px;
+}
+
+.balance-card {
+  background: linear-gradient(135deg, #0079d3, #0061a9);
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.balance-card h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  opacity: 0.9;
+}
+
+.balance-amount {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.transfer-btn {
+  background-color: white;
+  color: #0079d3;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.transfer-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.transfer-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.transfer-modal form {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+}
+
+.transfer-modal h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.transfer-modal input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.modal-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.modal-buttons button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.modal-buttons button[type="submit"] {
+  background-color: #0079d3;
+  color: white;
+  border: none;
+}
+
+.modal-buttons button[type="button"] {
+  background-color: #f6f7f8;
+  border: 1px solid #ddd;
+}
+
+.transactions {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transactions h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.transactions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.transaction-item {
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.transaction-item:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.transaction-type {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.transaction-type.收入 {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.transaction-type.支出 {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.transaction-amount {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.transaction-description {
+  margin: 10px 0;
+  color: #666;
+}
+
+.transaction-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9em;
+  color: #999;
+}
+
+.transaction-status {
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.8em;
+}
+
+.transaction-status.已完成 {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.transaction-status.处理中 {
+  background-color: #fff3e0;
+  color: #ef6c00;
+}
+
+.transaction-status.失败 {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+@media (max-width: 768px) {
+  .wallet {
+    padding: 10px;
+  }
+
+  .balance-card {
+    padding: 20px;
+  }
+
+  .balance-amount {
+    font-size: 2em;
+  }
+
+  .transaction-item {
+    padding: 10px;
+  }
+} 

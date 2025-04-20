@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  vocechat:
+    image: privoce/vocechat-server:latest
+    container_name: vocechat
+    restart: always
+    ports:
+      - "8080:3000"  # 本地访问端口
+    volumes:
+      - ./vocechat-data:/home/vocechat/data
+    environment:
+      - SERVER_URL=http://localhost:8080  # 本地访问地址
+      - SERVER_PORT=3000
+      - DB_URL=sqlite:///home/vocechat/data/vocechat.db
+      - JWT_SECRET=your_jwt_secret_here
+      - ADMIN_EMAIL=admin@localhost
+      - ADMIN_PASSWORD=admin123  # 初始管理员密码 

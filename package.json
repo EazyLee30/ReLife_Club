@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "dailyhot-api": "^2.0.7"
+  }
+}

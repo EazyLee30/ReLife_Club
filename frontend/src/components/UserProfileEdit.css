@@ -1,0 +1,64 @@
+.user-profile-edit {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.profile-card,
+.achievements-card {
+  height: 100%;
+}
+
+.level-info {
+  margin-bottom: 24px;
+}
+
+.level-info h4 {
+  margin-bottom: 8px;
+}
+
+.badges-section,
+.roles-section,
+.contributions-section {
+  margin-top: 24px;
+}
+
+.badges-section h4,
+.roles-section h4,
+.contributions-section h4 {
+  margin-bottom: 16px;
+  color: #1a1a1a;
+}
+
+.badges-container,
+.roles-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.contributions-section .ant-card {
+  text-align: center;
+}
+
+.contributions-section .ant-statistic-title {
+  font-size: 14px;
+  color: #666;
+}
+
+.contributions-section .ant-statistic-content {
+  font-size: 20px;
+  color: #1890ff;
+}
+
+@media (max-width: 768px) {
+  .user-profile-edit {
+    padding: 16px;
+  }
+
+  .profile-card,
+  .achievements-card {
+    margin-bottom: 24px;
+  }
+} 

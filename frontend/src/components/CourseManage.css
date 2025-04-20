@@ -1,0 +1,212 @@
+.course-manage {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.manage-header {
+  margin-bottom: 2rem;
+}
+
+.manage-header h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.course-title {
+  font-size: 1.4rem;
+  color: #666;
+}
+
+.course-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card h3 {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.manage-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.action-btn {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.schedule-btn {
+  background-color: #2196F3;
+  color: white;
+}
+
+.students-btn {
+  background-color: #FF9800;
+  color: white;
+}
+
+.meeting-btn {
+  background-color: #9C27B0;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.action-btn:hover {
+  opacity: 0.9;
+}
+
+.student-list {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.student-list h3 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.student-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-list th,
+.student-list td {
+  padding: 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.student-list th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+}
+
+.edit-modal,
+.schedule-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.edit-modal form,
+.schedule-modal form {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+}
+
+.edit-modal h3,
+.schedule-modal h3 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.edit-modal input,
+.edit-modal textarea,
+.schedule-modal input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.edit-modal textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.modal-buttons button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.modal-buttons button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.modal-buttons button[type="button"] {
+  background-color: #f44336;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .course-manage {
+    padding: 1rem;
+  }
+
+  .course-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .manage-actions {
+    flex-direction: column;
+  }
+
+  .action-btn {
+    width: 100%;
+  }
+
+  .edit-modal form,
+  .schedule-modal form {
+    width: 95%;
+    padding: 1.5rem;
+  }
+} 

@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  rsshub:
+    image: diygod/rsshub
+    container_name: rsshub
+    restart: always
+    ports:
+      - "1200:1200"
+    environment:
+      - NODE_ENV=production
+      - CACHE_EXPIRE=3600
+      - ALLOW_ORIGIN=*
+
+  api:
+    image: imsyy/dailyhot-api:1.0.0
+    container_name: dailyhot-api
+    restart: always
+    ports:
+      - "6688:6688"
+    environment:
+      - NODE_ENV=production
+      - CACHE_SECONDS=3600
+      - TZ=Asia/Shanghai
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    user: "1000:1000"  # 使用非root用户运行
+    volumes:
+      - /tmp:/tmp  # 添加临时目录的访问权限 
