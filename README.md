@@ -1,5 +1,11 @@
 # 瑞享社 - ReLife Club
 
+## 演示视频
+- [完整功能演示](docs/images/demo.gif)
+- [AI助手使用演示](docs/images/ai-demo.gif)
+- [课程中心操作演示](docs/images/course-demo.gif)
+- [社区互动演示](docs/images/community-demo.gif)
+
 ## 项目简介
 
 随着中国人口老龄化的加速，50岁以上的中国人正逐步步入退休阶段。对于即将退休和刚刚退休的人群来说，退休不仅意味着职业生涯的结束，更是对几十年规律生活的彻底颠覆。瑞享社（ReLife Club）旨在通过人机共生的方式，设计并实施一个创新的解决方案，助力即将退休和刚刚退休的中国人适应新生活阶段。
@@ -98,12 +104,6 @@
   - 代币转账
   - 代币兑换
   - 交易记录查询
-
-## 演示视频
-- [完整功能演示](docs/images/demo.mp4)
-- [AI助手使用演示](docs/images/ai-demo.gif)
-- [课程中心操作演示](docs/images/course-demo.gif)
-- [社区互动演示](docs/images/community-demo.gif)
 
 ## 技术架构
 
