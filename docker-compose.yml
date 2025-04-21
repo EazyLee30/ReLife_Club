@@ -13,7 +13,7 @@ services:
       - ALLOW_ORIGIN=*
 
   api:
-    image: imsyy/dailyhot-api:1.0.0
+    image: imsyy/dailyhot-api:latest
     container_name: dailyhot-api
     restart: always
     ports:

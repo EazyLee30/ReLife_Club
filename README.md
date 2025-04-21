@@ -2,7 +2,10 @@
 
 ## 🎥 演示视频
 ### 📱 完整功能演示
-<img src="docs/images/demo.gif" alt="完整功能演示" width="800" />
+<video width="800" controls>
+  <source src="docs/images/demo.mp4" type="video/mp4">
+  您的浏览器不支持 HTML5 视频播放。
+</video>
 
 > 💡 如需观看更清晰的视频版本，请点击：[高清演示视频](docs/images/demo.mp4)
 
