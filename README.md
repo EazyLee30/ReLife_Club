@@ -2,7 +2,10 @@
 
 ## 🎥 演示视频
 ### 📱 完整功能演示
-<iframe src="https://eazylee30.github.io/ReLife_Club/video.html" width="800" height="450" frameborder="0" allowfullscreen></iframe>
+<video width="800" controls>
+  <source src="https://raw.githubusercontent.com/EazyLee30/ReLife_Club/main/docs/images/demo.mp4" type="video/mp4">
+  您的浏览器不支持 HTML5 视频播放。
+</video>
 
 ### 🤖 AI助手使用演示
 <img src="docs/images/ai-demo.gif" alt="AI助手使用演示" width="800" />
