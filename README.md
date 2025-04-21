@@ -2,7 +2,7 @@
 
 ## 🎥 演示视频
 ### 📱 完整功能演示
-<video src="https://github.com/EazyLee30/ReLife_Club/files/15940093/demo.mp4" controls="controls" style="max-width: 800px;">
+<video src="https://github.com/user-attachments/assets/a60a5d84-0d90-4741-82ab-202514101f40" controls="controls" style="max-width: 800px;">
 </video>
 
 ### 🤖 AI助手使用演示
