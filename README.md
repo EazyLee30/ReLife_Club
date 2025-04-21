@@ -2,9 +2,7 @@
 
 ## 🎥 演示视频
 ### 📱 完整功能演示
-> 💡 由于 GitHub 文件大小限制，请访问以下链接观看高清演示视频：
-> - [Bilibili 视频链接](https://www.bilibili.com)（待上传）
-> - [YouTube 视频链接](https://www.youtube.com)（待上传）
+<iframe src="//player.bilibili.com/player.html?bvid=BV1LFLuzuEMa&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="800" height="450"> </iframe>
 
 ### 🤖 AI助手使用演示
 <img src="docs/images/ai-demo.gif" alt="AI助手使用演示" width="800" />
